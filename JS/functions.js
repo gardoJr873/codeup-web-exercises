@@ -46,8 +46,8 @@
 
           let myName = 'Edgardo Ortiz';
                function sayHello() {
+           }   sayHello();
                console.log(myName);
-           }   sayHello()
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
