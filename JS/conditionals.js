@@ -22,30 +22,31 @@
  * console.logging the function's return value
  */
 
-        function analyzeColor() {
-            let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-            let userChoice = prompt("What is your favorite color?", "")
+    let colorChoice = prompt("What is your favorite color", " ")
 
-            if (userChoice === colors[0]) {
-               console.log("You chose red like the color of my Panigale v4!") ;
-            } else if (userChoice === colors[1]) {
-                console.log("You chose orange that reminds me of oranges!") ;
-            } else if (userChoice === colors[2]) {
-                console.log("You chose yellow which reminds me of cheese!")
-            } else if (userChoice === colors[3]) {
-                console.log("You chose green, which is the color of grass!")
-            } else if (userChoice === colors[4]) {
-                console.log("You chose blue like the color of the ocean!")
-            } else if (userChoice === colors[5]) {
-                console.log("You chose indigo, what is indigo?")
-            } else if (userChoice === colors[6]) {
-                console.log("You chose violet like the name of your cat")
-            } else {
-                console.log("Sorry, that color is nonexistent!")
-            }
-            return randomColor;
-    }
-    console.log(analyzeColor())
+        function analyzeColor() {
+
+        let colors = ('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet');
+
+        if (colorChoice === "red") {
+            return "You chose red like the color of my Panigale 899!"
+        } else if (colorChoice === "orange") {
+            return "You chose orange like the color of an orange."
+        } else if (colorChoice === "yellow") {
+            return "You chose yellow which reminds me of the color of the sun!"
+        } else if (colorChoice === "green") {
+            return "You chose the color green which is associated with earth"
+        } else if (colorChoice === "blue") {
+            return "Blue, nice! The color of the sea!"
+        } else if (colorChoice === "indigo") {
+            return "You chose indigo, what is indigo?"
+        } else if (colorChoice === "violet") {
+            return "That's the color you named your cat after"
+        } else {
+            return "That's not a color you!"
+        }
+    } console.log(analyzeColor())
+
 
 // Don't change the next two lines!
 // These lines create two variables for you:
@@ -54,17 +55,55 @@
 //                  will contain a different color every time the page loads)
 var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 var randomColor = colors[Math.floor(Math.random() * colors.length)];
+
 /**
  * TODO:
  * Pass the `randomColor` variable to your 'analyzeColor' function and console.log the results.
  * You should see a different message every time you refresh the page
  */
 
+        function analyzeColor() {
+        let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+        let randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+        return randomColor;
+    }
+    console.log(analyzeColor())
 
 /**
  * TODO:
  * Comment out the code above, and refactor your function to use a switch-case statement
  */
+
+    let colorChoice = prompt("What is your favorite color", " ")
+
+    switch(colorChoice) {
+        case "red":
+            alert("You chose red like the color of my Panigale 899!");
+            break;
+        case "orange":
+            alert("You chose orange like the color of an orange.");
+            break;
+        case "yellow":
+            alert("You chose yellow which reminds me of the color of the sun!");
+            break;
+        case "green":
+            alert("You chose the color green which is associated with earth");
+            break;
+        case "blue":
+            alert("Blue, nice! The color of the sea!");
+            break;
+        case "indigo":
+            alert("You chose indigo, what is indigo?");
+            break;
+        case "violet":
+            alert("That's the color you named your cat after");
+            break;
+        default:
+            alert(colorChoice + " isn't my favorite, but to each their own!");
+            break;
+    }
+
 
 /**
  * TODO:
