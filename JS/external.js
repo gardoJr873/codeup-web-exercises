@@ -1,7 +1,18 @@
-
 "use strict";
+
+/**
+ * Edgardo Ortiz Jr
+ *
+ * JavaScript with HTML Exercise 3 Working With Data Types, Operators, and Variables
+ *
+ *
+ */
+
 let y = "Hello from external JavaScript";
 console.log(y);
+
+
+//JavaScript with HTML Exercise 1 Working With Data Types, Operators, and Variables
 
     alert("Yay! Thanks for returning your rentals!!");
 
@@ -32,3 +43,29 @@ console.log(y);
     }
     console.log(rentalCostTotal())
 
+//JavaScript with HTML Exercise 2 Working With Data Types, Operators, and Variables
+
+    alert("Yo! Pay time!! We need to get your hours worked for this week!!");
+    function bigGAF() {
+
+        let hourlyRateGooG = 400;
+            const hoursWorked = Number(prompt("How many hours did you put in for Google this week?"  , ""));
+                let googPayment = hourlyRateGooG * hoursWorked;
+
+        confirm("Ok great, you should be receiving  $" + googPayment);
+
+        let hourlyRateAmaz = 380;
+            const hoursWorked2 = Number(prompt("Ok and for Amazon?"  , ""));
+                let amazPayment = hourlyRateAmaz * hoursWorked2;
+
+        confirm("Ok, you should be getting  $" + amazPayment + " from Amazon.");
+
+        let hourlyRateFacBook = 350;
+            const hoursWorked3 = Number(prompt("What about Facebook?"  , ""));
+                let facBookPayment = hourlyRateFacBook * hoursWorked3;
+
+        confirm("Ok, expect  $" + facBookPayment + " from Facebook.");
+
+        alert("Nice! You should expect this Friday to see $" +Number(googPayment + amazPayment + facBookPayment) + " deposited in your bank account!")
+    }
+    console.log(bigGAF())
