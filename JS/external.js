@@ -69,3 +69,6 @@ console.log(y);
         alert("Nice! You should expect this Friday to see $" +Number(googPayment + amazPayment + facBookPayment) + " deposited in your bank account!")
     }
     console.log(bigGAF())
+
+
+

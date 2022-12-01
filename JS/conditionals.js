@@ -22,30 +22,31 @@
  * console.logging the function's return value
  */
 
-    let colorChoice = prompt("What is your favorite color", " ")
-
-        function analyzeColor() {
-
-        let colors = ('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet');
-
-        if (colorChoice === "red") {
-            return "You chose red like the color of my Panigale 899!"
-        } else if (colorChoice === "orange") {
-            return "You chose orange like the color of an orange."
-        } else if (colorChoice === "yellow") {
-            return "You chose yellow which reminds me of the color of the sun!"
-        } else if (colorChoice === "green") {
-            return "You chose the color green which is associated with earth"
-        } else if (colorChoice === "blue") {
-            return "Blue, nice! The color of the sea!"
-        } else if (colorChoice === "indigo") {
-            return "You chose indigo, what is indigo?"
-        } else if (colorChoice === "violet") {
-            return "That's the color you named your cat after"
-        } else {
-            return "That's not a color you!"
-        }
-    } console.log(analyzeColor())
+    // let colorChoice = prompt("What is your favorite color", " ")
+    //
+    //     function analyzeColor() {
+    //
+    //     let colors = ('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet');
+    //
+    //     if (colorChoice === "red") {
+    //         return "You chose red like the color of my Panigale 899!"
+    //     } else if (colorChoice === "orange") {
+    //         return "You chose orange like the color of an orange."
+    //     } else if (colorChoice === "yellow") {
+    //         return "You chose yellow which reminds me of the color of the sun!"
+    //     } else if (colorChoice === "green") {
+    //         return "You chose the color green which is associated with earth"
+    //     } else if (colorChoice === "blue") {
+    //         return "Blue, nice! The color of the sea!"
+    //     } else if (colorChoice === "indigo") {
+    //         return "You chose indigo, what is indigo?"
+    //     } else if (colorChoice === "violet") {
+    //         return "That's the color you named your cat after"
+    //     } else {
+    //         return "That's not a color you!"
+    //     }
+    // }
+    // alert(analyzeColor())
 
 
 // Don't change the next two lines!
@@ -62,47 +63,47 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * You should see a different message every time you refresh the page
  */
 
-        function analyzeColor() {
-        let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-        let randomColor = colors[Math.floor(Math.random() * colors.length)];
-
-        return randomColor;
-    }
-    console.log(analyzeColor())
+    //     function analyzeColor() {
+    //     let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+    //     let randomColor = colors[Math.floor(Math.random() * colors.length)];
+    //
+    //     return randomColor;
+    // }
+    // console.log(analyzeColor())
 
 /**
  * TODO:
  * Comment out the code above, and refactor your function to use a switch-case statement
  */
 
-    let colorChoice = prompt("What is your favorite color", " ")
-
-    switch(colorChoice) {
-        case "red":
-            alert("You chose red like the color of my Panigale 899!");
-            break;
-        case "orange":
-            alert("You chose orange like the color of an orange.");
-            break;
-        case "yellow":
-            alert("You chose yellow which reminds me of the color of the sun!");
-            break;
-        case "green":
-            alert("You chose the color green which is associated with earth");
-            break;
-        case "blue":
-            alert("Blue, nice! The color of the sea!");
-            break;
-        case "indigo":
-            alert("You chose indigo, what is indigo?");
-            break;
-        case "violet":
-            alert("That's the color you named your cat after");
-            break;
-        default:
-            alert(colorChoice + " isn't my favorite, but to each their own!");
-            break;
-    }
+    // let colorChoice = prompt("What is your favorite color", " ")
+    //
+    // switch(colorChoice) {
+    //     case "red":
+    //         alert("You chose red like the color of my Panigale 899!");
+    //         break;
+    //     case "orange":
+    //         alert("You chose orange like the color of an orange.");
+    //         break;
+    //     case "yellow":
+    //         alert("You chose yellow which reminds me of the color of the sun!");
+    //         break;
+    //     case "green":
+    //         alert("You chose the color green which is associated with earth");
+    //         break;
+    //     case "blue":
+    //         alert("Blue, nice! The color of the sea!");
+    //         break;
+    //     case "indigo":
+    //         alert("You chose indigo, what is indigo?");
+    //         break;
+    //     case "violet":
+    //         alert("That's the color you named your cat after");
+    //         break;
+    //     default:
+    //         alert(colorChoice + " isn't my favorite, but to each their own!");
+    //         break;
+    // }
 
 
 /**
@@ -112,7 +113,12 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * function to show it to the user.
  */
 
-/* ########################################################################## */
+    // let colorChoice = prompt("Write in a color of your choice!", "")
+    //
+    // function analyzeColor() {
+    //         return "You chose the color " + colorChoice;
+    //     }
+    //     alert(analyzeColor())
 
 /**
  * TODO:
@@ -134,6 +140,19 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * return value.
  */
 
+// alert("Yay! You've been entered into a once in a lifetime promotion experience here at Walmart!")
+//     function walmartPromo() {
+//
+//         let customerChoice = prompt("and see if you're the lucky winner")
+//
+//         let  = Math.min(Math.max(number, 1), 20)
+//     } walmartPromo()
+
+
+
+
+
+
 /**
  * TODO:
  * Uncomment the line below to generate a random number between 0 and 5.
@@ -143,7 +162,22 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * price before the discount was, and what their price after the discount is.
  */
 // Generate a random number between 0 and 6
-// var luckyNumber = Math.floor(Math.random() * 6);
+
+
+    function calculateTotal() {
+
+        let totalBill = prompt("Please enter your total bill price", " ")
+        let  luckyNumber = Math.floor(Math.random() * 6);
+        let discount = ((luckyNumber/ 100) * totalBill).toFixed(2);
+
+        let adjustedPrice = totalBill - discount;
+        alert("Your lucky number was " + luckyNumber +"!")
+            alert("Your total price was $" + totalBill)
+                alert("Congrats, you new total is $" + adjustedPrice)
+    }
+    console.log(calculateTotal())
+
+
 
 /**
  * TODO:
