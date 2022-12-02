@@ -69,7 +69,7 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
     //
     //     return randomColor;
     // }
-    // console.log(analyzeColor())
+    // analyzeColor()
 
 /**
  * TODO:
@@ -175,7 +175,7 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
             alert("Your total price was $" + totalBill)
                 alert("Congrats, you new total is $" + adjustedPrice)
     }
-    console.log(calculateTotal())
+    calculateTotal()
 
 
 

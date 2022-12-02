@@ -41,7 +41,8 @@ console.log(y);
 
         alert("Your final total is $" +Number(combinedRentalFee1 + combinedRentalFee2 + combinedRentalFee3))
     }
-    console.log(rentalCostTotal())
+    rentalCostTotal();
+
 
 //JavaScript with HTML Exercise 2 Working With Data Types, Operators, and Variables
 

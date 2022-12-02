@@ -19,10 +19,10 @@
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
 
-          // function sayHello() {
-          //     let x = 'Edgardo';
-          //       console.log('Hello, ' + x);
-          // } sayHello()
+          function sayHello() {
+              let x = 'Edgardo';
+                console.log('Hello, ' + x);
+          } sayHello()
 
 /**
  * TODO:
@@ -32,10 +32,10 @@
  * console.log 'helloMessage' to check your work
  */
 
-               // function sayHello() {
-               //     let helloMessage = "Edgardo";
-               //     console.log(helloMessage);
-               // }   sayHello()
+               function sayHello() {
+                   let helloMessage = "Edgardo";
+                   console.log(helloMessage);
+               }   sayHello()
 
 /**
  * TODO:
@@ -44,10 +44,10 @@
  * console.
  */
 
-          // let myName = 'Edgardo Ortiz';
-          //      function sayHello() {
-          //  }   sayHello();
-          //      console.log(myName);
+          let myName = 'Edgardo Ortiz';
+               function sayHello() {
+           }   sayHello();
+               console.log(myName);
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
@@ -65,10 +65,10 @@
  * > isTwo(3) // returns false
  */
 
-           // const isTwo= function() {
-           //     let x = 2;
-           //     console.log(isNaN(x));
-           // };   isTwo();
+           const isTwo= function() {
+               let x = 2;
+               console.log(isNaN(x));
+           };   isTwo();
 
  /**
   *TODO:
@@ -79,8 +79,8 @@
  * number)
  */
 
-     //  const isTwo = function() {
-     // }; console.log(Math.random(isTwo()));
+      const isTwo = function() {
+     }; console.log(Math.random(isTwo()));
 
 /**
  * TODO:
