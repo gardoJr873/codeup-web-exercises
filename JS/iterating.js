@@ -66,7 +66,6 @@ console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
      */
 
 
-
     let first = function() {
         const i =[1, 2, 3, 4, 5];
         return i[0];

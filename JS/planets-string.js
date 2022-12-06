@@ -25,4 +25,8 @@ let planetsString = "Mercury|Venus|Earth|Mars|Jupiter|Saturn|Uranus|Neptune";
  */
 
  console.log(planetsArray.join('<br>'));
+    document.write(planetsString);
 
+    planetsString = planetsArray.join(<li></li>);
+    planetsString = "<ul><li>" + planetsString + "</li></ul>";
+        console.log(planetsArray);
