@@ -6,6 +6,7 @@
 // }
 
 //Loops Exercise 2 Multiplication for loop function DONE
+
 let n = 7;
 for (let i = 1; i <= 10; ++i)
     console.log(n + " * " + i + " = " + n * i);
@@ -21,9 +22,9 @@ for (let i = 0; i < 10; i++) {
     if (i % 2 === 0) {
         console.log(i + " is an even number")
     } else
-    if (i !== 0) {
-        console.log(i + " is an odd number");
-    }
+        if (i !== 0) {
+            console.log(i + " is an odd number");
+        }
 }
 
 //Loops Exercise 4 Left triangle number output
@@ -46,5 +47,5 @@ for (let i = 0, j = 20 ; i < 20; i++, j--) {
     console.log(r);
 }
 
-//Break and continue exercises
+
 
