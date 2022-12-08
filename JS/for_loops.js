@@ -1,10 +1,6 @@
 "use strict";
 
 
-// for (/*initialization*/; /*condition*/; /*increment*/) {
-//          body
-// }
-
 //Loops Exercise 2 Multiplication for loop function DONE
 
 let n = 7;
