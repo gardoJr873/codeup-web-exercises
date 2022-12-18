@@ -1,0 +1,56 @@
+<!--
+Edgardo Ortiz Jr
+
+HTML Forms exercise
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Register With Us</title>
+    </head>
+    <body>
+<!--Requester inspector added-->
+<!--What do you notice when changing the form's request method from GET to POST? The user input info gets displayed with the URL-->
+        <form method="POST" action="https://request-inspector.glitch.me/">
+<!--email and password fields with appropriate placeholders-->
+            <label for="email">Username</label><br>
+            <input id="email" name="email" multiple/><br>
+            <label for="password">Password</label><br>
+<!--What happens if you leave off the name attribute on an input? The buttons remained selected-->
+            <input id="password" name="button" type="password">
+            <br>
+            <button type="submit">Submit</button>
+            <br><br>
+<!--textarea for bio, noticed that label description is/was below and to the left of the textarea box and found <br> to help with placement-->
+            <label for="bio">Tell us about yourself</label><br>
+            <textarea id="bio" name="comment"></textarea>
+            <br>
+<!--How did you hear about us radio button options thought I could use a fieldset element but was encountering that all buttons remained selected-->
+                <p>How did you hear about us</p>
+<!--What happens if the inputs are given different name attributes? It looked like three out of the four will remain selected-->
+                    <input type="radio" id="Billboard" name="hearingAboutUs" value="Billboard" checked="checked"/>
+                    <label for="Billboard">Billboard</label>
+                    <input type="radio" id="Radio advertisement" name="hearingAboutUs" value="Radio advertisement">
+                    <label for="Radio advertisement">Radio advertisement</label>
+                    <input type="radio" id="Internet advertisement" name="hearingAboutUs" value="Internet advertisement">
+                    <label for="Internet advertisement">Internet advertisement</label>
+                    <input type="radio" id="Other" name="hearingAboutUs" value="Other">
+                    <label for="Other">Other</label>
+<!--What happens if you leave off the id attribute on a form input? The for attribute will display invalid reference-->
+            <br>
+                <label for="browser preference">What wbe browser(s) do your prefer to use</label>
+                    <select name="web browser" id="browser preference">
+                        <option value=" "></option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="Brave">Brave</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Opera">Opera</option>
+                        <option value="Internet Explorer">Internet Explorer</option>
+                        <option value="Chromium">Chromium</option>
+                    </select>
+        </form>
+    </body>
+</html>
