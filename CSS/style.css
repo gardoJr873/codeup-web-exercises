@@ -1,7 +1,109 @@
 
-/*css for welcome.html*/
+/*css for welcome.html Selectors and Properties*/
 
-
+/*Header color*/
 .fancy-header {
-    color: purple;
+    color: #000000;
 }
+
+/*Main heading centered*/
+h1{
+    /*margin-bottom: -1em;*/
+    padding-bottom: .1em;
+    text-align: center;
+}
+
+p {
+ padding: 1em;
+}
+
+/*Headers in body colored and underlined*/
+h2 {
+    color:#000000;
+    text-decoration: underline;
+}
+
+#menu-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    background-color: #DDDDDD;
+    box-shadow: 10px 5px 5px #222222;
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #000000;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #CFE4EA;
+    color: #222222;
+}
+
+.header-menus {
+    /*display: flex;*/
+    /*float: left;*/
+    /*margin-left: 50px;*/
+    /*margin-right: 40px;*/
+    /*margin-top: -2em;*/
+}
+
+header {
+    /*background-image: url("/img/pexels-steve-johnson-12939554.jpg");*/
+    /*background-size: 30em;*/
+    background-color: darkred;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: auto;
+    border: 22em;
+    max-height: 100%;
+    position: sticky;
+    text-align-all: unset;
+    top: 0;
+    z-index: 333;
+}
+
+.headerBreak {
+    margin-top: 2.5em;
+}
+nav {
+    /*padding-top: -1em;*/
+}
+
+html {
+    background-image: url("/img/pexels-steve-johnson-12939552.jpg");
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+    background-size: Auto;
+    resize: inherit;
+}
+
+/*height set for music business/production image*/
+img[src*="img/pexels-clam-lo-3355365.jpg"] {
+    height: 35em ;
+    margin-top: 40px;
+}
+
+img {
+    height: 20em;
+    width: 27em;
+}
+
+
