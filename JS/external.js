@@ -5,7 +5,7 @@
  *
  * JavaScript with HTML Exercise 3 Working With Data Types, Operators, and Variables
  *
- *
+ * WebDev
  */
 
 let y = "Hello from external JavaScript";
