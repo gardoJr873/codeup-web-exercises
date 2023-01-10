@@ -25,27 +25,64 @@
     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
     culpa qui officia deserunt mollit anim id est laborum.
 </p>
+<hr>
+<!--button 1-->
+<p><em>Set inner html of mainHeader to "JavaScript is Cool"</em></p>
+<button type="button" id="btn1">Change Header Title!</button>
+<br>
+<!--button 2-->
+<p><em>Get the sub header element by id</em></p>
+<button type="button" id="btn2">Reveal SubHeader!</button>
+<br>
+<!--button 3-->
+<p><em>Set the text color of subHeader to blue</em></p>
+<button type="button" id="btn3">Change SubHeader Color!</button>
+<br>
+<!--button 4-->
+<p><em>Get all list items</em></p>
+<button type="button" id="btn4">List all items</button>
 
 <script>
     (function() {
         "use strict";
         // TODO: Uncomment next line and get the main header element by id
+        // button 1
         let mainHeader = document.getElementById('main-header');
         console.log(mainHeader);
 
         // TODO: Set inner html of mainHeader to "JavaScript is Cool"
-        mainHeader.innerHTML = "Javascript is Cool";
-        console.log(mainHeader.innerHTML);
+        // button 2
+            function headerChange(event) {
+                mainHeader.innerHTML = "Javascript is Cool";
+            }
+            document.getElementById('btn1').addEventListener('click',headerChange );
+
+        // mainHeader.innerHTML = "Javascript is Cool";
+        // console.log(mainHeader.innerHTML);
 
         // TODO: Uncomment the next line and get the sub header element by id
-        let subHeader = document.getElementById('sub-header');
-        console.log(subHeader);
+        // button 3
+        function subHeaderElement(event) {
+            let subHeader = document.getElementById('sub-header')
+            alert(subHeader.innerText)
+        }
+        document.getElementById('btn2').addEventListener('click',subHeaderElement );
+
+        // let subHeader = document.getElementById('sub-header');
+        // console.log(subHeader);
 
         // TODO: Set the text color of subHeader to blue
-       let subHeaderColor = document.getElementById('sub-header');
-       subHeaderColor.style.color = '#0000FF';
+        function subHeaderColor(event) {
+            let subHeaderColor = document.getElementById('sub-header');
+            subHeaderColor.style.color = '#0000FF'
+        }
+        document.getElementById('btn3').addEventListener('click', subHeaderColor)
+
+       // let subHeaderColor = document.getElementById('sub-header');
+       // subHeaderColor.style.color = '#0000FF';
 
         // TODO: Uncomment the next line and get all list items
+
         let listItems = document.getElementsByTagName('li');
         for (let i = 0; i < listItems.length; i++) {
             console.log(listItems[i]);

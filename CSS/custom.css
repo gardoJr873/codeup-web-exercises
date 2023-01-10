@@ -1,0 +1,25 @@
+.jumbotron {
+    background-image: url(../img/pizza.png);
+    height: 346px;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+h1 {
+    background-color: #c5c5c5;
+    position: center;
+}
+.tab-pane {
+    background-color: whitesmoke;
+    padding: .5em;
+    color: #FFFFFF;
+    border: solid #848487;
+}
+
+.card-header {
+    background-color: #E4E4E4;
+    display: flex;
+    justify-self: flex-end;
+}
+.btn {
+
+}
