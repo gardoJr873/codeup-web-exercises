@@ -20,6 +20,12 @@ h1 {
     display: flex;
     justify-self: flex-end;
 }
-.btn {
-
+.card-header {
+    color: #000000;
+}
+#size-pane, #cheese-pane, #toppings-pane {
+    background-color: #146cf3;
+    padding: .5em;
+    color: #FFFFFF;
+    border: solid #848487;
 }
